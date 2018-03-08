@@ -51,8 +51,7 @@ public class TestPlotSoftPatterns
 		context.addDriver("Buggy Simulator", plotter);
 
 		IPlotter plotterWithSpecialLine = new LinePlotterAdapter();
-
-		context.addDriver("Ploter with special line", plotterWithSpecialLine);
+		context.addDriver("Plotter With Special Line", plotterWithSpecialLine);
 		
 		context.updateDriverInfo();
 	}
